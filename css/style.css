@@ -59,7 +59,6 @@ footer .logos div {
 
 .logo img {
     height: 36px;
-    padding-right: 30px;
 }
 
 .menu > img {
@@ -129,6 +128,10 @@ footer .logos div {
 
 .personnal {
   display: none;
+}
+
+.socialNetworks {
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
