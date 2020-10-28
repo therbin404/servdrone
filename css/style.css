@@ -15,6 +15,7 @@ li {
 p {
     padding: 0;
     margin: 0;
+    font-size: 1.4rem;
 }
 
 a {
@@ -89,31 +90,6 @@ footer .logos div {
     padding: 9px 34px;
 }
 
-.titleDecoration{
-  width: 100%;
-  height: 102px;
-  background-image: url(images/20200213_150254.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-size: 2.4rem;
-}
-
-.titleDecoration .title{
-    text-align: center;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.7);
-    height: 102px;
-
-}
-
-.titleDecoration .bar{
-    width: 90%;
-    height: 4px;
-    background-color: #06D6A0;
-    margin-left: 5%;
-}
-
 .title div{
   display: flex;
   align-items: center;
@@ -134,22 +110,141 @@ footer .logos div {
   border-radius: 50%;
 }
 
+.jumbotron {
+  height: 120px;
+  background-image: url('../images/cover_image_index.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.mainTitleContainer {
+  display: flex;
+  font-size: 1.8rem;
+  padding: 20px 0;
+}
+
+.mainTitle {
+  display: inline-block;
+  margin: auto;
+  line-height: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.line {
+  width: 50%;
+  background-color: rgba(61,160,105,1);
+  height: 4px;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.citation {
+  padding: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.team {
+  padding: 25px 0;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.person img {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.team .line {
+  margin-top: 50px;
+  width: 4px;
+  height: 100px;
+}
+
+.medias {
+  background-color: rgba(43,61,77,1);
+  color: white;
+}
+
+.newspaper {
+  display:flex;
+  padding: 20px 0;
+}
+
+.newspaper img {
+  width: 125px;
+  height: 145px;
+  margin-right: 20px;
+}
+
+.newspaper .title {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.application {
+  text-align: center;
+}
+
+.apps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.apps img {
+  height: 30px;
+}
+
+.application p {
+  margin: 15px 0;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1000px) {
   footer {
     display: block;
   }
 
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .logos {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-bottom: 10px;
   }
 
-  footer ul {
-    display: flex;
-    justify-content: space-around;
+  .apps img {
+    height: 60px;
+  }
+
+  .newspaper img {
+    width: 250px;
+    height: 290px;
+  }
+
+  .person img {
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -162,9 +257,19 @@ footer .logos div {
       display: block;
       font-size: 1.4rem;
     }
+  
+    footer ul {
+      display: flex;
+      justify-content: space-around;
+    }
 
     .personnal {
       display: flex;
+    }
+    
+    .jumbotron {
+      height: 504px;
+      background-image: url('../images/cover_image_index.jpeg');
     }
   
     .logos {
@@ -173,11 +278,6 @@ footer .logos div {
       justify-content: space-between;
       align-items: center;
       padding-bottom: 20px;
-    }
-  
-    footer ul {
-      display: flex;
-      justify-content: space-around;
     }
 
     .logo img {
@@ -255,5 +355,19 @@ footer .logos div {
 
     #menuThirdLevel:hover .thirdLevel {
         display: block;
+    }
+
+    .apps img {
+      height: 60px;
+    }
+
+    .newspaper img {
+      width: 250px;
+      height: 290px;
+    }
+
+    .person img {
+      width: 100px;
+      height: 100px;
     }
 }
