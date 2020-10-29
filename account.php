@@ -12,7 +12,31 @@
     require_once('header.html');
   ?>
   
-  <!-- ADD CONTENT HERE -->
+<section class='container'>
+  <div>
+    <h1>Mon compte</h1>
+    <div class="line"></div>
+  </div>
+  <input class='commandes' type="button" value="Mes commandes">
+  <div class='values'>
+    <div class='value'>
+      <p>nom :</p>
+      <p>Prenom :</p>
+      <p>mail :</p>
+      <p>Téléphone :</p>
+      <p>Adresse : </p>
+    </div>
+    <div>
+      <p>Robert</p>
+      <p>Lafondue</p>
+      <p>fatal92@wanadoo.fr</p>
+      <p>07 81 34 82 68</p>
+      <p>83 route de fatal <br>
+         74 177, Hameau du chevron doré</p>
+    </div>
+  </div>
+  <input class='informations' type="button" value="Modifier mes informations">
+</section>
 
   <?php
     require_once('footer.html');

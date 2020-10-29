@@ -1,0 +1,25 @@
+.commandes{
+    color: #ffffff;
+    background-color: #3588CC;
+    padding: 2rem;
+    margin: 10rem 0;
+    border-radius: 10%;
+}
+.values{
+    display: flex;
+    justify-content: space-around;
+}
+.values p {
+    padding: 3rem 0;
+}
+.value p {
+    color: #3588CC;
+}
+.informations {
+    background-color: #3DA069;
+    color: #ffffff;
+    padding: 2rem;
+    margin: 10rem 25rem;
+    border-radius: 10%;
+    width: 50%;
+}
