@@ -1,0 +1,10 @@
+.red_drone {
+  background-image: url('../images/legal.jpg');
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+  h1 {
+    font-size: 1.7rem;
+  }
+}
