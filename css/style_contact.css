@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+    margin: 2rem 0;
+    border: none;
+}
+.jumbotron{
+    background-image: url('../images/legal.jpg');
+}
+.importantText{
+    color: #3DA069;
+}
+.textUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.searchBar{
+    margin: 2rem 1rem;
+    background-color: #ABB3B9;
+    width: 20%;
+}
+.searchBarEmail{
+    margin: 2rem 1rem;
+    background-color: #ABB3B9;
+    width: 30%;
+}
+.searchBarRequest{
+    margin: 2rem 1rem;
+    background-color: #ABB3B9;
+    width: 50%;
+    padding: 2rem;
+    
+}
+.button{
+    background-color: #3DA069;
+    color: white;
+    border-radius: 5%;
+    padding: 0.8rem;
+}
