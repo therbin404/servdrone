@@ -1,0 +1,55 @@
+.headerImage {
+  background-image: url('../images/partners.jpeg');
+}
+
+.partner1 .mainTitle,
+.partner2 .mainTitle,
+.partner3 .mainTitle {
+  margin: initial;
+}
+
+.imagePartner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagePartner p {
+  width: 30%;
+  margin-left: 20px;
+}
+
+.imageContainer {
+  width: 300px;
+  height: 150px;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.buttonMore {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: rgba(53,136,204,1);
+  padding: 5px;
+}
+
+.buttonMore a {
+  color: white;
+  font-weight: bold;
+}
+
+.buttonMore {
+  margin: 25px 0;
+}
+
+.partner1 .line,
+.partner2 .line,
+.partner3 .line {
+  background-color: rgba(53,136,204,1);
+}
+
+.buttonMore a {
+  font-size: 1.4rem;
+}
