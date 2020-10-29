@@ -11,7 +11,14 @@
   <?php 
     require_once('header.html');
   ?>
-  
+  <div class="jumbotron what_is_a_drone"></div>
+  <section class="container">
+  <div class="mainTitleContainer">
+    <div class="mainTitle">
+      <h2>Qu'est-ce qu'un drone ?</h2>
+      <div class="line"></div>
+    </div>
+  </div>
   <!-- ADD CONTENT HERE -->
 
   <?php
