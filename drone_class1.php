@@ -24,7 +24,7 @@
             <div class="line"></div>
           </div>
         </div>
-        <div class="price"><p>399€</p></div>
+        <div class="price"><p>299€</p></div>
         <div class="quantity">
           <p>Quantité</p>
           <input type="text">
@@ -52,7 +52,6 @@
       </div>
       <div></div>
     </div>
-  <!-- ADD CONTENT HERE -->
   </section>
   <?php
     require_once('footer.html');
