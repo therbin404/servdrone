@@ -13,10 +13,14 @@
   ?>
   
 <section class='container'>
-  <div>
-    <h1>Mon compte</h1>
-    <div class="line"></div>
+ 
+<div class="mainTitleContainer">
+    <div class="mainTitle">
+      <h2>Mon compte</h2>
+      <div class="line"></div>
+    </div>
   </div>
+
   <input class='commandes' type="button" value="Mes commandes">
   <div class='values'>
     <div class='value'>
