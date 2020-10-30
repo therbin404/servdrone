@@ -1,0 +1,25 @@
+.jumbotron{
+    background-image: url('../images/account.jpg');
+}
+.champ{
+    padding: 1.5rem;
+}
+.champ p{
+    color: #3588CC;
+}
+.champ input {
+    background-color: #C4C4C4;
+    border-radius: 10%;
+    width: 30%;
+}
+.button_informations{
+    color: white;
+    background-color: #3DA069;
+    padding: 1.5rem;
+    margin: 2rem;
+}
+.button_delete{
+    color: white;
+    background-color: #2B3D4D;
+    padding: 1.5rem;
+}
