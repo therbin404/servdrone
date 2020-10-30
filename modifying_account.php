@@ -13,10 +13,12 @@
   ?>
   <div class="jumbotron"></div>
   <section class='container'>
-    <div>
-      <h1>Modifier mes informations </h1>
+  <div class="mainTitleContainer">
+    <div class="mainTitle">
+      <h2>Modifier mes informations</h2>
       <div class="line"></div>
     </div>
+  </div>
     <div class='champ'>
       <p>nom :</p>
       <input type="text" value='Robert' >
