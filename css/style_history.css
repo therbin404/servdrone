@@ -1,0 +1,80 @@
+h1{
+  font-size: 1.7rem;
+}
+
+.a_drone {
+  background-image: url('../images/what_is_a_drone.jpg');
+}
+
+.ancient_drone {
+  background-image: url('../images/ancient_drone.jpg');
+  padding: 30px;
+  margin: 20px 0 30px 0;
+  height: 200px;
+}
+
+.hand_under_drone {
+  background-image: url('../images/our_products.jpg');
+}
+
+.rescue_drone {
+  background-image: url('../images/help-drone.jpg');
+}
+
+.hand_under_drone,
+.rescue_drone {
+  margin: 30px 0;
+  height: 200px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+
+  .a_drone {
+    height: 200px;
+  }
+
+  .ancient_drone,
+  .hand_under_drone,
+  .rescue_drone {
+    height: 270px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+
+  .a_drone {
+    height: 250px;
+  }
+
+  .ancient_drone,
+  .hand_under_drone,
+  .rescue_drone {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1000px) {
+
+  .a_drone {
+    height: 300px;
+  }
+
+  .ancient_drone,
+  .hand_under_drone,
+  .rescue_drone {
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .a_drone {
+    height: 350px;
+  }
+
+  .ancient_drone,
+  .hand_under_drone,
+  .rescue_drone {
+    height: 500px;
+  }
+}
