@@ -13,9 +13,11 @@
   ?>
   <div class="jumbotron"></div>
   <section class="container">
-    <div>
-    <h1>Nous contacter</h1>
-    <div class="line"></div>
+  <div class="mainTitleContainer">
+    <div class="mainTitle">
+      <h2>Contact</h2>
+      <div class="line"></div>
+    </div>
   </div>
     <p>Pour toute question, remarque, demande, n’hésitez pas à prendre contact avec notre service clientèle</p>
     <div class="contactMethods">
