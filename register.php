@@ -22,33 +22,29 @@
   </section>
   <section>
 	<form action="contact_page.php" method="POST">
-  <div>
+  <div class="user_data">
     <label for="name" class="name">Nom :</label>
 		<input type="text" id="name" name="name" required>
   </div>
-  <div>        
+  <div class="user_data">        
     <label for="email" class="email">Email :</label>
     <input type="email" id="email" name="email" required>
   </div>
-  <div>
+  <div class="user_data">
     <label for="password" class="password">Mot de passe :</label>
     <input type="password" id="password" name="password" required>
   </div>       
-  <div>
+  <div class="user_data">
     <label for="password" class="password">Retaper le mot de passe :</label>
     <input type="password" id="password" name="password" required>
   </div>
-  <div>
+  <div class="agreement_container">
     <input type="checkbox" id="checkbox" name="checkbox">
-    <p>
-      J’accepte que mes données personelles soient utilisées aux fins telles que définies dans les conditions générales d’utilisation
-    </p>
+    <p>J’accepte que mes données personelles soient utilisées aux fins telles que définies dans les conditions générales d’utilisation</p>
   </div>
-  <div>
+  <div class="agreement_container">
     <input type="checkbox" id="checkbox" name="checkbox">
-    <p>
-      Je désire m’inscrire à la newsletter
-    </p>
+    <p>Je désire m’inscrire à la newsletter</p>
   </div>
 	<div>
 		<button type="submit" class="submit">Créer mon compte</button>
