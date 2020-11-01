@@ -1,3 +1,20 @@
+input {
+  margin: 0 10%;
+}
+ 
+button {
+  margin: 0 0 10% 25%;
+  background: #3DA069;
+  color: #ffffff;
+  width: 171px;
+  height: 42px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+section {
+  height: unset;
+}
 
 .user_theme {
   background-image: url('../images/account.jpg');
@@ -8,12 +25,48 @@
 .password {
   color: #3588CC;
   padding: 0 10%;
+  font-size: 1.4rem;
 }
 
+.agreement_container {
+  display: flex;
+  align-items: flex-start;
+  margin: 10% 10% 10% 0;
+}
+
+.user_data {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8%;
+}
+
+.user_data:first-child {
+  margin-top: 5%;
+}
+
+#checkbox {
+  margin-right: 5%;  
+}
 
 #name,
 #email,
 #password {
   color: #3588CC;
-  padding: 0 5%;
+  font-weight: bold;
+  background: #C4C4C4;
+  border-radius: 5px;
+  border-style: none;
 }
+
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+
+
+  @media screen and (min-width: 768px) and (max-width: 850px) {
+
+
+    @media screen and (min-width: 850px) and (max-width: 1000px) {
+
+
+
+@media screen and (min-width: 1000px) {
