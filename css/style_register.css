@@ -12,10 +12,6 @@ button {
   border-style: none;
 }
 
-section {
-  height: unset;
-}
-
 .user_theme {
   background-image: url('../images/account.jpg');
 }
@@ -37,7 +33,7 @@ section {
 .user_data {
   display: flex;
   flex-direction: column;
-  margin-bottom: 8%;
+  margin-bottom: 5%;
 }
 
 .user_data:first-child {
@@ -56,19 +52,101 @@ section {
   background: #C4C4C4;
   border-radius: 5px;
   border-style: none;
+  height: 28px;
+  width: 300px;
 }
 
-/* 
 @media screen and (min-width: 450px) and (max-width: 768px) {
 
+  button {
+    margin: 0 0 10% 35%;
+  }
 
-  @media screen and (min-width: 768px) and (max-width: 850px) {
+  .agreement_container {
+    margin: 5% 10% 5% 0;
+  }
 
+  .user_data {
+    margin-bottom: 3%;
+  }
+}
 
-    @media screen and (min-width: 850px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 850px) {
 
+  button {
+    margin: 0 0 10% 40%;
+  }
 
+ .agreement_container {
+    margin: 5% 10% 5% 0;
+  }
 
-@media screen and (min-width: 1000px) {
+  .user_data {
+    margin-bottom: 2%;
+  }
+}
 
-} */
+@media screen and (min-width: 850px) and (max-width: 1000px) {
+
+  button {
+    margin: 0 0 5% 40%;
+  }
+
+  .user_data:first-child {
+    margin-top: 4%;
+  }
+
+ .agreement_container {
+    margin: 5% 10% 5% 0;
+  }
+
+  .user_data {
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+  button {
+    margin: 0 0 5% 40%;
+  }
+
+  .user_data:first-child {
+    margin-top: 4%;
+  }
+
+ .agreement_container {
+    margin: 5% 10% 5% 0;
+  }
+
+  .user_data {
+    margin-bottom: 2%;
+  }
+
+  #checkbox {
+    margin-right: 2%;  
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  button {
+    margin: 0 0 5% 40%;
+  }
+  
+  .user_data:first-child {
+    margin-top: 3%;
+  }
+
+ .agreement_container {
+    margin: 4% 10% 4% 0;
+  }
+
+  .user_data {
+    margin-bottom: 2%;
+  } 
+
+  #checkbox {
+    margin-right: 1%;  
+  }
+}
