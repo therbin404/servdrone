@@ -23,19 +23,19 @@
   <section>
 	<form action="contact_page.php" method="POST">
   <div>
-    <label for="name">Nom :</label>
+    <label for="name" class="name">Nom :</label>
 		<input type="text" id="name" name="name" required>
   </div>
   <div>        
-    <label for="email">Email :</label>
+    <label for="email" class="email">Email :</label>
     <input type="email" id="email" name="email" required>
   </div>
   <div>
-    <label for="password">Mot de passe</label>
+    <label for="password" class="password">Mot de passe :</label>
     <input type="password" id="password" name="password" required>
   </div>       
   <div>
-    <label for="password">Retaper le mot de passe</label>
+    <label for="password" class="password">Retaper le mot de passe :</label>
     <input type="password" id="password" name="password" required>
   </div>
   <div>
