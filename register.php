@@ -19,8 +19,6 @@
       <div class="line"></div>
     </div>
   </div>
-  </section>
-  <section>
 	<form action="contact_page.php" method="POST">
   <div class="user_data">
     <label for="name" class="name">Nom :</label>

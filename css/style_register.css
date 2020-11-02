@@ -1,12 +1,12 @@
-input {
-  margin: 0 10%;
+h1 {
+  font-size: 1.7rem;
 }
- 
+
 button {
-  margin: 0 0 10% 25%;
+  margin: 0 0 10% 3%;
   background: #3DA069;
   color: #ffffff;
-  width: 171px;
+  width: 100%;
   height: 42px;
   border-radius: 5px;
   border-style: none;
@@ -20,7 +20,7 @@ button {
 .email,
 .password {
   color: #3588CC;
-  padding: 0 10%;
+  padding: 0 8%;
   font-size: 1.4rem;
 }
 
@@ -53,43 +53,49 @@ button {
   border-radius: 5px;
   border-style: none;
   height: 28px;
-  width: 300px;
+  width: 100%;
 }
 
-@media screen and (min-width: 450px) and (max-width: 768px) {
+@media screen and (min-width:375px) and (max-width: 768px) {
 
+  input {
+    margin: 0 3%;
+  }
+   
   button {
-    margin: 0 0 10% 35%;
+    margin: 0 0 10% 20%;
+    width:60%;
   }
 
-  .agreement_container {
-    margin: 5% 10% 5% 0;
-  }
-
-  .user_data {
-    margin-bottom: 3%;
+  .name,
+  .email,
+  .password {
+    padding: 0 3%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 850px) {
 
   button {
-    margin: 0 0 10% 40%;
+    margin: 0 0 10% 10%;
+    width: 80%;
   }
 
  .agreement_container {
-    margin: 5% 10% 5% 0;
+    margin: 5% 10% 5% 8%;
   }
 
   .user_data {
-    margin-bottom: 2%;
+    margin: 0 0 2% 8%;
+    width: 80%;
   }
 }
 
-@media screen and (min-width: 850px) and (max-width: 1000px) {
+@media screen and (min-width: 850px) and (max-width: 1200px) {
 
   button {
-    margin: 0 0 5% 40%;
+    margin: 0 0 10% 15%;
+    width: 60%;
   }
 
   .user_data:first-child {
@@ -97,30 +103,13 @@ button {
   }
 
  .agreement_container {
-    margin: 5% 10% 5% 0;
+    margin: 5% 10% 5% 15%;
+    width: 60%;
   }
 
   .user_data {
-    margin-bottom: 2%;
-  }
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1200px) {
-
-  button {
-    margin: 0 0 5% 40%;
-  }
-
-  .user_data:first-child {
-    margin-top: 4%;
-  }
-
- .agreement_container {
-    margin: 5% 10% 5% 0;
-  }
-
-  .user_data {
-    margin-bottom: 2%;
+    margin: 0 0 2% 15%;
+    width: 60%;
   }
 
   #checkbox {
@@ -130,8 +119,13 @@ button {
 
 @media screen and (min-width: 1200px) {
 
+  form {
+    width: 80%;
+  } 
+
   button {
-    margin: 0 0 5% 40%;
+    margin: 0 0 5% 30%;
+    width: 60%;
   }
   
   .user_data:first-child {
@@ -139,11 +133,13 @@ button {
   }
 
  .agreement_container {
-    margin: 4% 10% 4% 0;
+    margin: 4% 10% 4% 30%;
+    width: 60%;
   }
 
   .user_data {
-    margin-bottom: 2%;
+    margin: 0 0 2% 30%;
+    width: 60%;
   } 
 
   #checkbox {
