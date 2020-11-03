@@ -4,7 +4,7 @@
 
 .headerProduct {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -43,7 +43,7 @@
 
 .technicalInformations {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 1.4rem;
   margin: 50px;
 }
