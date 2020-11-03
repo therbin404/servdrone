@@ -1,0 +1,59 @@
+.jumbotron {
+    background-image: url('../images/cart.jpg');
+}
+
+.cart {
+    text-align: center;
+}
+
+.lineCart {
+margin: 30px 0;
+display: flex;
+align-items: center;
+}
+
+.lineCart div {
+display: inline-block;
+}
+
+.unitPrice {
+width: 30%;
+}
+
+.quantity {
+width: 30%;
+}
+
+.price {
+width: 30%;
+}
+
+.quantityButton {
+background-color: rgba(196, 196, 196, 1);
+border-radius: 5px;
+width: 30%;
+}
+
+.importantText {
+color: rgba(241, 106, 60, 1);
+}
+
+.submit {
+display: flex;
+justify-content: flex-end;
+padding: 0 0 10% 0;
+}
+
+.submitOrder {
+    border-radius: 5px;
+    background-color: rgba(53,136,204,1);
+    color: white;
+}
+
+.firstLine {
+    color: rgba(53,136,204,1);
+}
+
+.headArticle {
+    margin: 20px 0;
+}
