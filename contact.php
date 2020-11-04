@@ -34,10 +34,22 @@
           <span class="importantText">formulaire de contact</span></p>
       </div>
       <div class='textUser'>
-      <input class="searchBar" type="text" id="nom" value="Nom">
-      <input class="searchBar" type="text" id="telephone" value="Téléphone">
-      <input class="searchBarEmail" type="text" id="email" value="Adresse email">
-      <input class="searchBarRequest" type="textarea" id="demande" value="Ma demande...">
+        <div>
+          <p>Nom</p>
+          <input class="searchBar" type="text" id="nom" value="Nom">
+        </div>
+        <div>
+          <p>Téléphone</p>
+          <input class="searchBar" type="text" id="telephone" value="Téléphone">
+        </div>
+        <div>
+          <p>Adresse mail</p>
+          <input class="searchBar" type="text" id="email" value="Adresse email">
+        </div>
+        <div>
+          <p>Votre demande</p>
+          <input class="searchBar lastSearchBar" type="textarea" id="demande" value="Ma demande...">
+        </div>
     </div>
     </div>
     <input class="button" type="submit" value="Envoyer">

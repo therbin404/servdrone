@@ -1,7 +1,5 @@
-*{
-    text-align: center;
-    margin: 2rem 0;
-    border: none;
+input {
+  border: none;
 }
 .jumbotron{
     background-image: url('../images/legal.jpg');
@@ -14,26 +12,36 @@
     flex-direction: column;
     align-items: center;
 }
+.textUser > div {
+  width: 300px;
+  margin: 2rem 0;
+}
+.textUser p {
+  text-align: left;
+}
 .searchBar{
-    margin: 2rem 1rem;
+    width: 300px;
+    min-height: 30px;
+    border-radius: 5px;
     background-color: #ABB3B9;
-    width: 20%;
 }
-.searchBarEmail{
-    margin: 2rem 1rem;
-    background-color: #ABB3B9;
-    width: 30%;
-}
-.searchBarRequest{
-    margin: 2rem 1rem;
-    background-color: #ABB3B9;
-    width: 50%;
-    padding: 2rem;
-    
+.lastSearchBar {
+  min-height: 100px;
 }
 .button{
     background-color: #3DA069;
     color: white;
     border-radius: 5%;
-    padding: 0.8rem;
+    padding: 5px 20px;
+}
+.importantText {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.container {
+  text-align: center;
+  margin: 2rem 0;
+}
+.contactMethods > div {
+  margin: 2rem 0;
 }
