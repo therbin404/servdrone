@@ -20,13 +20,14 @@
       <div class="line"></div>
     </div>
   </div>
-
+<div class='button'>
   <input class='commandes' type="button" value="Mes commandes">
+</div>
   <div class='values'>
     <div class='value'>
-      <p>nom :</p>
+      <p>Nom :</p>
       <p>Prenom :</p>
-      <p>mail :</p>
+      <p>Mail :</p>
       <p>Téléphone :</p>
       <p>Adresse : </p>
     </div>
@@ -39,7 +40,9 @@
          74 177, Hameau du chevron doré</p>
     </div>
   </div>
-  <input class='informations' type="button" value="Modifier mes informations">
+  <div class="button">
+ <a href="modifying_account.php"><input class='informations' type="button" value="Modifier mes informations"></a>
+</div>
 </section>
 
   <?php
