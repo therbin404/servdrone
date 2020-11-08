@@ -42,6 +42,20 @@ h1{
 
 @media screen and (min-width: 768px) and (max-width: 850px) {
 
+  .container_history,
+  .container_history_central {
+    display: flex;
+    align-items: center;
+  }
+
+  .container_history_central {
+    align-items: center;
+  }
+
+  .container_history_central {
+    flex-direction: row-reverse;
+  }
+
   .a_drone {
     height: 250px;
   }
@@ -50,10 +64,32 @@ h1{
   .hand_under_drone,
   .rescue_drone {
     height: 300px;
+    width: 50%;
+    padding: 0;
+  }
+
+  .history_text {
+    width: 50%;
+    padding: 20px;
+  
   }
 }
 
 @media screen and (min-width: 850px) and (max-width: 1000px) {
+
+  .container_history,
+  .container_history_central {
+    display: flex;
+    align-items: center;
+  }
+
+  .container_history_central {
+    align-items: center;
+  }
+
+  .container_history_central {
+    flex-direction: row-reverse;
+  }
 
   .a_drone {
     height: 300px;
@@ -63,14 +99,42 @@ h1{
   .hand_under_drone,
   .rescue_drone {
     height: 350px;
+    width: 50%;
+    padding: 0;
+  }
+
+  .history_text {
+    width: 50%;
+    padding: 20px;
   }
 }
 
 @media screen and (min-width: 1000px) {
 
+  .container_history,
+  .container_history_central {
+    display: flex;
+    align-items: center;
+  }
+
+  .container_history_central {
+    align-items: center;
+  }
+
+  .container_history_central {
+    flex-direction: row-reverse;
+  }
+
   .ancient_drone,
   .hand_under_drone,
   .rescue_drone {
     height: 500px;
+    width: 50%;
+    padding: 0;
+  }
+
+  .history_text {
+    width: 50%;
+    padding: 20px;
   }
 }

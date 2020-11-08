@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style_history.css">
   <title>Drone</title>
@@ -19,7 +20,9 @@
       <div class="line"></div>
     </div>
   </div>
-  <div class="jumbotron ancient_drone"></div>
+  <div class="container_history">
+  <div class="jumbotron ancient_drone animate__animated animate__backInRight"></div>
+  <div class="history_text animate__animated animate__backInLeft">
   <p>
     Un drone est un avion sans pilote qui peut récolter des images. Leurs premiers prototypes datent des années 50. Les drones sont aussi appelés « UAV » (pour « Unmanned Aerial Vehicle », soit « véhicule aérien sans humain à bord ») et de plus en plus souvent « UAS » (pour « Unmanned Aircraft System », soit « système d'aéronef sans humain à bord »).
   </p>
@@ -32,7 +35,11 @@
   <p>
     Nous allons retracer un bref historique des drones des premiers modèles à la démocratisation de ces appareils.
   </p>
-  <div class="jumbotron hand_under_drone"></div>
+  </div>
+  </div>
+  <div class="container_history_central">
+  <div class="jumbotron hand_under_drone animate__animated animate__backInLeft"></div>
+  <div class="history_text animate__animated animate__backInRight">
   <p>
     Plus tard, l’appareil photo a été remplacé par des caméras même capables de filmer de nuit.
   </p>
@@ -45,10 +52,16 @@
   <p>
     Par la suite, les drones se sont démocratisés et ont été transformés pour être des jouets pour les enfants mais pas seulement.
   </p>
-  <div class="jumbotron rescue_drone"></div>
+  </div>
+  </div>
+  <div class="container_history">
+  <div class="jumbotron rescue_drone animate__animated animate__backInRight"></div>
+  <div class="history_text animate__animated animate__backInLeft">
   <p>
     Aujourd’hui, les drones sont devenus utiles dans de vastes domaines: la photographie et le filmage aériens que ce soit pour des documentaires, des événements, sportifs, des recherches archéologiques, des contrôles de braconnage, des contrôles de pollution ou météorologiques, des contrôles de panneaux solaires ou des toits des usines, vérifier l’état des routes et des ponts après des catastrophes naturelles. On peut aussi s’en servir pour livrer des vivres et des médicaments. Des drones domestiques ont même été inventés afin de pouvoir apporter des boissons aux terrasses de cafés! D’objet de guerre à objet pacifique capable de rendre notre quotidien plus agréable, le drone couvre décidément tous les domaines. 
   </p>
+  </div>
+  </div>
   </section>
   <?php
     require_once('footer.html');
